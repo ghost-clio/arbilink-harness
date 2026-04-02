@@ -1,0 +1,2 @@
+{"timestamp":"2026-04-02T07:51:11.584Z","buyer":"0xBuyer1","service":"svc-alpha","amount":0.01,"txHash":"0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","verified":false,"type":"payment","protocol":"x402"}
+{"timestamp":"2026-04-02T07:51:11.599Z","buyer":"0xTightBuyer","service":"svc-expensive","amount":10,"txHash":"","verified":false,"type":"rejection","protocol":"x402","details":{"policy":{"perTxLimit":0.01,"dailyLimit":0.05}}}

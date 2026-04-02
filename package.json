@@ -1,0 +1,22 @@
+{
+  "name": "arbilink-harness",
+  "version": "1.0.0",
+  "description": "Test harness & demo agents for ArbiLink — agent commerce on Arbitrum",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_ENV=test vitest run",
+    "demo": "tsx src/demo.ts",
+    "demo:record": "tsx src/demo.ts 2>&1 | tee demo-output.txt"
+  },
+  "dependencies": {
+    "arbilink": "file:../arbilink"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "tsx": "^4.0.0",
+    "vitest": "^3.1.1",
+    "supertest": "^7.1.0",
+    "@types/supertest": "^6.0.2",
+    "@types/node": "^22.0.0"
+  }
+}
