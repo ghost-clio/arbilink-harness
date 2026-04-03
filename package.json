@@ -6,17 +6,20 @@
   "scripts": {
     "test": "NODE_ENV=test vitest run",
     "demo": "tsx src/demo.ts",
-    "demo:record": "tsx src/demo.ts 2>&1 | tee demo-output.txt"
+    "demo:record": "tsx src/demo.ts 2>&1 | tee demo-output.txt",
+    "battle": "tsx src/battle-test.ts",
+    "battle:record": "tsx src/battle-test.ts 2>&1 | tee battle-output.txt"
   },
   "dependencies": {
-    "arbilink": "file:../arbilink"
+    "arbilink": "file:../arbilink",
+    "ethers": "^6.16.0"
   },
   "devDependencies": {
-    "typescript": "^5.8.3",
-    "tsx": "^4.0.0",
-    "vitest": "^3.1.1",
-    "supertest": "^7.1.0",
+    "@types/node": "^22.0.0",
     "@types/supertest": "^6.0.2",
-    "@types/node": "^22.0.0"
+    "supertest": "^7.1.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.1"
   }
 }

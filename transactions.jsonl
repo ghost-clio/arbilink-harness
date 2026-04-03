@@ -1,2 +1,6 @@
 {"timestamp":"2026-04-02T07:51:11.584Z","buyer":"0xBuyer1","service":"svc-alpha","amount":0.01,"txHash":"0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","verified":false,"type":"payment","protocol":"x402"}
 {"timestamp":"2026-04-02T07:51:11.599Z","buyer":"0xTightBuyer","service":"svc-expensive","amount":10,"txHash":"","verified":false,"type":"rejection","protocol":"x402","details":{"policy":{"perTxLimit":0.01,"dailyLimit":0.05}}}
+{"timestamp":"2026-04-02T15:44:00.805Z","buyer":"0xBuyer1","service":"svc-alpha","amount":0.01,"txHash":"0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","verified":false,"type":"payment","protocol":"x402"}
+{"timestamp":"2026-04-02T15:44:00.813Z","buyer":"0xTightBuyer","service":"svc-expensive","amount":10,"txHash":"","verified":false,"type":"rejection","protocol":"x402","details":{"policy":{"perTxLimit":0.01,"dailyLimit":0.05}}}
+{"timestamp":"2026-04-03T06:38:58.186Z","buyer":"0xBuyer1","service":"svc-alpha","amount":0.01,"txHash":"0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","verified":false,"type":"payment","protocol":"x402"}
+{"timestamp":"2026-04-03T06:38:58.201Z","buyer":"0xTightBuyer","service":"svc-expensive","amount":10,"txHash":"","verified":false,"type":"rejection","protocol":"x402","details":{"policy":{"perTxLimit":0.01,"dailyLimit":0.05}}}

@@ -1,0 +1,28 @@
+🔥 ArbiLink Battle Test — Live Arbitrum Sepolia
+
+════════════════════════════════════════════════════════════
+
+📋 Test 1: AgentEscrow Contract Verification
+
+  ✅ Contract deployed — 13120 chars bytecode
+  ✅ USDC address matches — 0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d
+  ✅ nextEscrowId readable — current: 0
+
+📋 Test 2: ERC-8004 Identity Registration
+
+  ✅ Registry accessible — AgentIdentity (AGENT)
+  ✅ Deployer registered — 1 NFT(s) owned
+
+📋 Test 3: Gateway Health
+
+  ❌ Gateway unreachable — fetch failed
+
+⚠️  Gateway not running. Start it first: cd arbilink && PORT=3403 npm run dev
+
+
+════════════════════════════════════════════════════════════
+
+🏁 Results: 5 passed, 1 failed (6 total)
+
+⚠️  1 test(s) need attention.
+
